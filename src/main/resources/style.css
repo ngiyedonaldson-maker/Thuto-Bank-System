@@ -1,0 +1,75 @@
+.root {
+    -fx-background-color: #F4F7F6;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.header-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #002B5B;
+}
+
+.sub-header {
+    -fx-font-size: 14px;
+    -fx-text-fill: #6c757d;
+}
+
+.balance-text {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #28a745;
+}
+
+.text-field, .password-field, .combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+.text-field:focus, .password-field:focus {
+    -fx-border-color: #0056b3;
+    -fx-border-width: 2px;
+}
+
+.button-primary {
+    -fx-background-color: #0056b3;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button-primary:hover {
+    -fx-background-color: #004494;
+}
+
+.button-danger {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-padding: 20px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, #E0E0E0, 10, 0, 0, 4);
+}
+
+.top-bar {
+    -fx-background-color: #002B5B;
+    -fx-padding: 15px 30px;
+}
+
+.top-bar-label {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
